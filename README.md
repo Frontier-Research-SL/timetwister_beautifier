@@ -1,6 +1,6 @@
-# The Red Box: Newsletter Builder
+# Time Twister Beautifier
 
-A standalone, client-side tool for composing **The Red Box** weekly email digest and exporting it as a formatted `.docx` file.
+A standalone, client-side tool for composing **Time Twister** daily email digest and exporting it as a formatted `.docx` file.
 
 No backend. No database. No data leaves the browser. The Word document is generated entirely in-page and downloaded directly.
 
@@ -26,48 +26,13 @@ Click **Preview** to review before exporting. Click **Generate .docx** to downlo
 ## Project structure
 
 ```
-red-box-newsletter/
+timetwisterbeautifier/
 ├── index.html              # Single-page form app
 ├── builder.css             # All styles
 ├── builder.js              # All logic — form, validation, docx generation
 └── .github/workflows/
     └── deploy.yml          # GitHub Pages deployment
 ```
-
----
-
-## Setup
-
-### 1. Fork / push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "init: Red Box Newsletter Builder"
-git remote add origin https://github.com/YOUR_USERNAME/red-box-newsletter.git
-git push -u origin main
-```
-
-### 2. Enable GitHub Pages
-
-Go to **Settings → Pages → Source → GitHub Actions**.
-
-### 3. Trigger first deploy
-
-Go to **Actions → Deploy to GitHub Pages → Run workflow**.
-
-The builder will be live at `https://YOUR_USERNAME.github.io/red-box-newsletter/`.
-
-### 4. Local development
-
-No build step required. Just open `index.html` in a browser, or serve it locally:
-
-```bash
-python3 -m http.server 8080
-# then open http://localhost:8080
-```
-
----
 
 ## Security
 
