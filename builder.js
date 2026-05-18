@@ -1,5 +1,5 @@
 /**
- * builder.js — The Red Box Newsletter Builder
+ * builder.js — Time Twister Beautifier
  *
  * Generates .docx files matching the reference document (All_in_One_Special___24_10.docx)
  * with forensic accuracy on every measurement, font, border, spacing and colour.
@@ -800,8 +800,8 @@ async function generateDocx(data) {
 
   /* ── Document definition ── */
   const doc = new Document({
-    creator:     'The Red Box Newsletter Builder',
-    description: 'Sri Lanka English-language news digest',
+    creator:     'Time Twister',
+    description: 'The News; Summarized, Sorted and Suited to you - A product by Frontier Research',
 
     // Character styles
     styles: {
